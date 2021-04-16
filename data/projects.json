@@ -5,13 +5,13 @@
             "project_name": "Ruth Bader Ginsburg Quotes",
             "description": "Inspiring feminist quotes that populate randomly",
             "technologies": "",
-            "live-link": "https://raw.githack.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes/main/index.html",
+            "live-link": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
             "github-link": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
             "image_url": ""
         },
         {
             "id": 2,
-            "project_name": "Phrase Hunter",
+            "project_name": "What's that Phrase?",
             "description": "A word guessing game",
             "technologies": "",
             "live-link": "https://jelenamf.github.io/Phrase-Hunter-a-word-guessing-game/",
