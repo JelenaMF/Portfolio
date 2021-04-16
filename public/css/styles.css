@@ -63,8 +63,9 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #4197b9;
 }
+
 
 .flex-row-wrap {
   display: flex;
@@ -358,7 +359,5 @@ nav a span {
     width: calc(100% - 300px);
   }
 
-  .inner-wrapper {
-    max-width: 1200px;
-  }
+
 }
