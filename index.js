@@ -1,16 +1,14 @@
 const express = require('express');
-//const router = express.Router();
 const app = express();
-
+const routes = require('./routes')
 app.use(express.static('public'));
+
 
 app.set('view engine', 'pug');
 
-//routing to the index 
-app.get('/', (req, res) => {
-    
-    res.render('index');
-});
+
+
+app.use('/', routes);
 
 //route to the about page
 app.get('/about', (req,res) => {
@@ -18,12 +16,7 @@ app.get('/about', (req,res) => {
     res.render('about');
 });
 
-//route to the project route based on the id of the project
-app.get('/project/:id', (req,res) => {
-    //render the
-    console.log('this the project page');
-    res.render('project');
-});
+
 
 //error handler to catch 404
 
