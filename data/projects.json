@@ -3,29 +3,81 @@
         {
             "id": 1,
             "project_name": "Ruth Bader Ginsburg Quotes",
-            "description": "Inspiring feminist quotes that populate randomly",
+            "description": "Inspiring feminist quotes by the feminist herself Ruth Bader Ginsburg each quote populates randomly, with an image of her",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "live-link": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
-            "github-link": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
-            "image_url": ""
+            "livelink": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
+            "githublink": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
+            "thumbnail": "/images/rbg550x550.png",
+            "tnalt": "Ruth Bader Ginsberg project image",
+            "projectimg1": "/images/rgb1200.png",
+            "img1alt": "Ruth Bader Ginsberg project image",
+            "projectimg2": "/images/rgb1200x550.png",
+            "img2alt": "Ruth Bader Ginsberg project image",
+            "projectimg3": "/images/rgb1200x5003.png",
+            "img3alt": "Ruth Bader Ginsberg project image"
         },
         {
             "id": 2,
             "project_name": "What's that Phrase?",
-            "description": "A word guessing game",
-            "technologies": "",
-            "live-link": "https://jelenamf.github.io/Whats-that-Phrase-game/",
-            "github-link": "https://github.com/JelenaMF/Phrase-Hunter-a-word-guessing-game",
-            "image_url": ""
+            "description": "A word guessing game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed incorrectly the key with that letter changes to orange is disabled if it's guessed correctly it will change to black and display on the screen also disabling the letter",
+            "technologies":["Javascript", "CSS", "HTML"],
+            "livelink": "https://jelenamf.github.io/Whats-that-Phrase-game/",
+            "githublink": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
+            "thumbnail": "/images/phrasegame550.png",
+            "tnalt": "start game page",
+            "projectimg1": "/images/phrase1200x5501.jpg",
+            "img1alt": "What's that phrase start screen",
+            "projectimg2": "/images/gameboard1200x550.jpg",
+            "img2alt": "Game board",
+            "projectimg3": "/images/winningscreen1200x550.jpg",
+            "img3alt": "winning screen"
         },
         {
             "id": 3,
             "project_name": "Link Four",
+            "description": "A game similar to connect four. Players are instructed on how to use the arrow keys to move the tokens across the board",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "livelink": "https://jelenamf.github.io/Link-four/",
+            "githublink": "https://github.com/JelenaMF/Link-four",
+            "thumbnail": "/images/link4start.png",
+            "tnalt": "Link four start page",
+            "projectimg1": "/images/link4.png",
+            "img1alt": "Link 4 game board",
+            "projectimg2": "/images/link4gameboard.png",
+            "img2alt": "link4 gameboard with tokens",
+            "projectimg3": "/images/link4winning.png",
+            "img3alt": "link four winning page"
+        },
+        {
+            "id": 4,
+            "project_name": "nhew project",
             "description": "A game similar to connect four ",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live-link": "https://jelenamf.github.io/Link-four/",
             "github-link": "https://github.com/JelenaMF/Link-four",
-            "image_url": ""
+            "tnalt": "Ruth Bader Ginsberg project image",
+            "projectimg1": "/images/rgb1200.png",
+            "img1alt": "Ruth Bader Ginsberg project image",
+            "projectimg2": "/images/rgb1200x500.png",
+            "img2alt": "Ruth Bader Ginsberg project image",
+            "projectimg3": "/images/rgb1200x5003.png",
+            "img3alt": "Ruth Bader Ginsberg project image"
+        },
+        {
+            "id": 5,
+            "project_name": "new project",
+            "description": "A game similar to connect four ",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live-link": "https://jelenamf.github.io/Link-four/",
+            "github-link": "https://github.com/JelenaMF/Link-four",
+            "tnalt": "Ruth Bader Ginsberg project image",
+            "projectimg1": "/images/rgb1200.png",
+            "img1alt": "Ruth Bader Ginsberg project image",
+            "projectimg2": "/images/rgb1200x500.png",
+            "img2alt": "Ruth Bader Ginsberg project image",
+            "projectimg3": "/images/rgb1200x5003.png",
+            "img3alt": "Ruth Bader Ginsberg project image"
         }
+        
     ]
 }
