@@ -19,7 +19,11 @@ app.get('/about', (req,res) => {
 
 
 //error handler to catch 404
-
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+})
 //error handler to catch global errors
 
 
