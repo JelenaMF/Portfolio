@@ -16,12 +16,7 @@ router.get('/projects/:id', (req,res) => {
     const project = projects.find(({id}) => id === +projectId)
     if(project) {
         res.render('project', {project});
-        console.log(project.project_name);
-    } else {
-        res.sendStatus(404);
-    }
-    console.log('this the project page');
-    res.render('project');
+    } 
 });
 //get the project id    
 

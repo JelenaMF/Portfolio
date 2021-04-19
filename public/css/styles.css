@@ -226,6 +226,7 @@ nav a span {
 .portfolio-intro {
   max-width: 1200px;
   padding: 40px 50px 30px;
+  background-color: gold;
 }
 
 .portfolio-intro h1 {
@@ -241,6 +242,8 @@ nav a span {
   padding-bottom: 40px;
   border-bottom: 1px solid #eaeaea;
 }
+
+
 
 .projects-box h5 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -316,6 +319,7 @@ nav a span {
 
   .box {
     border-bottom: none;
+    background-color: rgb(49, 110, 154);
   }
 
   .two-col .box:nth-of-type(1) {
