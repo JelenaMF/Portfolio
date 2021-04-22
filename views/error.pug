@@ -1,0 +1,10 @@
+extends layout 
+
+block content
+    section
+        h1=`${error.message} - Status: ${error.status}`
+        img(src='/images/404pg.png')
+        a(href='/') Go Home
+        .error-page
+            pre.stack-trace= error.stack
+            

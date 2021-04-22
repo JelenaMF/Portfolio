@@ -102,6 +102,22 @@ a {
   font-size: 13px;
 }
 
+/* 404 error*/
+
+
+
+.error-page {
+  text-align: left;
+  color: #34393D;
+  height: 500px;
+  background-color: #f8f8f8;
+  background-size: 100% 2.5em;
+  background-image: linear-gradient(rgba(234, 236, 211, 1) 0.1em, transparent 0.2em);
+  border-left: 0.2em solid rgba(216, 64, 38, 0.5);
+  padding-left: 20px;
+  margin-top: 70px;
+  overflow: scroll;
+}
 
 /*
   Sidebar and mobile header
