@@ -1,7 +1,10 @@
 using Node.js and Express to:
 
 Import the required dependencies
-Link the JSON with the Pug templates
+    * pug
+    * express
+    * heroku
+directory data contains projects.json file
 Set up routes to handle requests
 Set up the middleware to utilize static files like CSS
 Handle errors
