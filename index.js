@@ -19,7 +19,7 @@ app.get('/about', (req,res) => {
 
 //error handler to catch 404
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error("Whoops. Nothing to see here. Return to the home page. click home below");
     err.status = 404;
     next(err);
 })
