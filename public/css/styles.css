@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Satisfy&display=swap');
 
 /*
   Main styles
@@ -31,7 +32,11 @@ article {
   background: #fefefe;
 }
 
-h1,h2,h3,h4,h5,p{
+h1 {
+  font-family: 'Bad Script', cursive;
+}
+
+h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 

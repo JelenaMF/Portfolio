@@ -19,7 +19,7 @@ app.get('/about', (req,res) => {
 
 //error handler to catch 404
 app.use((req, res, next) => {
-    const err = new Error("Whoops. Nothing to see here. Return to the home page. click home below");
+    const err = new Error("Whoops. Nothing to see here. Return to the home page. Click 'Go Home' to return to the main page.");
     err.status = 404;
     next(err);
 })
