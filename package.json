@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/JelenaMF/Portfolio/issues"
   },
-  
   "homepage": "https://github.com/JelenaMF/Portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
