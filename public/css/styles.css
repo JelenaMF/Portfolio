@@ -127,6 +127,9 @@ a {
   overflow: scroll;
 }
 
+h2 {
+  color:rgb(250, 246, 246);
+}
 /*
   Sidebar and mobile header
 */
@@ -148,6 +151,7 @@ nav a {
   text-transform: uppercase;
   color: rgb(220, 189, 213); 
 }
+
 
 nav a span {
   font-weight: bold;
