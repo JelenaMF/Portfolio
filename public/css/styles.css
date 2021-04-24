@@ -24,12 +24,11 @@ body {
   color: #0a0a0a;
   background: #fefefe;
   background: #000;
-  transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: #553071;
   
 }
 
@@ -326,6 +325,7 @@ nav a span {
   Tablet layout styles 
 */
 @media screen and (min-width: 769px) {
+  
   .sidebar h5 {
     font-size: 1.25rem;
   }
@@ -357,9 +357,6 @@ nav a span {
     font-size: 1.25rem;
   }
 
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  }
 }
 
 
@@ -369,10 +366,6 @@ nav a span {
 @media screen and (min-width: 1024px) {
   .sidebar {
     left: 0;
-  }
-  article {
-    background: #553071;
-    
   }
 
   .header {
