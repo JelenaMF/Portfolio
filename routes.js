@@ -13,14 +13,13 @@ router.get('/', (req, res) => {
 router.get('/projects/:id', (req,res) => {
     //render project page 
     const projectId = req.params.id;
+    //render the matching project id 
+
     const project = projects.find(({id}) => id === +projectId)
     if(project) {
         res.render('project', {project});
     } 
 });
-//get the project id    
-
-    //render the matching project id 
 
 //export router
 module.exports = router;
