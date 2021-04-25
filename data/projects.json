@@ -69,8 +69,8 @@
             "project_name": "Employee Directory",
             "description": "This employee directory pulls up twelve random employees. Click on an Employee card and a module will pop-up with their information. The next and previous buttons allow you to look at the next or previous employee unless you're at the first or last employee in the directory. The search bar allows you to search for the employee on the page.",
             "technologies": ["JavaScript", "HTML", "CSS", "Public API"],
-            "live-link": "https://jelenamf.github.io/Employee-Directory/",
-            "github-link": "https://github.com/JelenaMF/Employee-Directory",
+            "livelink": "https://jelenamf.github.io/Employee-Directory/",
+            "githublink": "https://github.com/JelenaMF/Employee-Directory",
             "thumbnail":"/images/EmpDir550.png",
             "tnalt": "the employee directory",
             "projectimg1": "/images/firstmodule1200.png",
@@ -79,6 +79,22 @@
             "img2alt": "module of the last employee in the directory",
             "projectimg3": "/images/midmod1200.png",
             "img3alt": "The employee modules of the employees in between the first and last"
+        },
+        {
+            "id": 6,
+            "project_name": "Realtor Flashcards",
+            "description": "Created this project to help people study for the realtor exam. On the question page there's a link to a hint before flipping over to see the answer if the user is having trouble. They can click the next button can be clicked from either side question or answer.",
+            "technologies": ["JavaScript", "HTML", "CSS", "Node.js", "Express"],
+            "livelink": "https://realtor-flashcards.herokuapp.com",
+            "githublink": "https://github.com/JelenaMF/realtor-flashcards",
+            "thumbnail":"/images/realtorfc550.png",
+            "tnalt": "flashcard home page",
+            "projectimg1": "/images/realtorfc1200.png",
+            "img1alt": "welcome page",
+            "projectimg2": "/images/realtorfcq1200.png",
+            "img2alt": "flash card question page",
+            "projectimg3": "/images/realtorfca1200.png",
+            "img3alt": "flashcard answer page"
         }
         
     ]
