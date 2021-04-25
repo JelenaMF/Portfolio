@@ -28,7 +28,7 @@ body {
 }
 
 article {
-  background: #553071;
+  background: rgb(164, 115, 175);
   
 }
 
@@ -85,13 +85,15 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: rgb(164, 115, 175);
   border-bottom: 1px solid #eaeaea;
 }
 
