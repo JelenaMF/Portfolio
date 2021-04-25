@@ -59,10 +59,12 @@ p{
   font-size: 15px;
   color: rgb(10, 10, 10);
 }
+
 .profile {
   font-size: 15px;
   color: rgb(248, 240, 240);
 }
+
 a {
   text-decoration: none;
   color:rgb(244, 205, 253)
@@ -238,18 +240,18 @@ nav a span {
 
 /*animated elements*/
 .btn-link:hover {
-  animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97);
+  max-width: 275px;
+
   color: goldenrod; 
 }
 
 .cell:hover {
-
-    animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97);
+  animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97);
     
 }
 
 a:hover {
-  animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97);
+  font-size: 17px;
   color: goldenrod;
 }
 
@@ -275,8 +277,6 @@ a:hover {
   padding-bottom: 40px;
   border-bottom: 1px solid #eaeaea;
 }
-
-
 
 .projects-box h5 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -307,6 +307,8 @@ a:hover {
 .project-info-box p {
   font-size: 125%;
 }
+
+
 
 .about-bio p {
   font-size: 15px;
@@ -341,7 +343,18 @@ a:hover {
 /* 
   Tablet layout styles 
 */
-@media screen and (min-width: 769px) {
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  html,
+body {
+  font-size: 100%;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
   
   .sidebar h5 {
     font-size: 1.25rem;
@@ -351,6 +364,19 @@ a:hover {
     font-size: 3rem;
   }
 
+  .about-intro-box p,
+.project-info-box p {
+  font-size: 125%;
+}
+
+.about-bio p {
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+.skills-contact-box ul {
+  margin-bottom: 35px;
+}
   .box {
     border-bottom: none;
     background-color: rgb(164, 115, 175);
@@ -374,6 +400,15 @@ a:hover {
     font-size: 1.25rem;
   }
 
+  .wrapper {
+    margin-left: 300px;
+    width: calc(100% - 300px);
+  }
+
+  .inner-wrapper {
+    max-width: 100%;
+  }
+
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
@@ -384,6 +419,15 @@ a:hover {
   Desktop layout styles 
 */
 @media screen and (min-width: 1024px) {
+  html,
+  body {
+    font-size: 100%;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+  }
+  
   .sidebar {
     left: 0;
   }
@@ -398,7 +442,7 @@ a:hover {
   }
 
   .inner-wrapper {
-    max-width: 1200px;
+    max-width: 100%;
   }
 
 }
