@@ -58,9 +58,11 @@ h6{
 p{
   font-size: 15px;
   color: rgb(10, 10, 10);
-
 }
-
+.profile {
+  font-size: 15px;
+  color: rgb(248, 240, 240);
+}
 a {
   text-decoration: none;
   color:rgb(244, 205, 253)
@@ -234,6 +236,22 @@ nav a span {
   background: #fefefe;
 }
 
+/*animated elements*/
+.btn-link:hover {
+  animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97);
+  color: goldenrod; 
+}
+
+.cell:hover {
+
+    animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97);
+    
+}
+
+a:hover {
+  animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97);
+  color: goldenrod;
+}
 
 /*
   Home page styles
@@ -319,9 +337,6 @@ nav a span {
   border: 1px solid transparent;
 }
 
-.grid {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
 
 /* 
   Tablet layout styles 
@@ -359,6 +374,9 @@ nav a span {
     font-size: 1.25rem;
   }
 
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
 }
 
 
