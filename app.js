@@ -19,15 +19,15 @@ app.get('/about', (req,res) => {
 
 //error handler to catch 404
 app.use((req, res, next) => {
-    const err = new Error("Whoops. Nothing to see here. Return to the home page. Click 'Go Home' to return to the main page.");
+    const err = new Error("Whoops. Nothing to see here. Return to the home page. Click ");
     err.status = 404;
     next(err);
 })
 //error handler to catch global errors
 app.use((err, req, res, next) => {
     res.locals.error = err; 
-    res.status(err.status);
-    res.render('error');
+    res.render('error', err);
+    res.render(console.log(err.status, '-no page found'))
 }); 
 
 app.listen(3000, () => {

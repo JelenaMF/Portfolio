@@ -5,96 +5,109 @@
             "project_name": "Ruth Bader Ginsburg Quotes",
             "description": "Inspiring feminist quotes by the feminist herself Ruth Bader Ginsburg each quote populates randomly, with an image of her",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "livelink": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
-            "githublink": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
-            "thumbnail": "/images/rbg550x550.png",
-            "tnalt": "Ruth Bader Ginsberg project image",
-            "projectimg1": "/images/rbg1200.png",
-            "img1alt": "Ruth Bader Ginsberg project image",
-            "projectimg2": "/images/rbg1200x550.png",
-            "img2alt": "Ruth Bader Ginsberg project image",
-            "projectimg3": "/images/rgb1200x5003.jpg",
-            "img3alt": "Ruth Bader Ginsberg project image"
+            "live_link": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
+            "github_link": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
+            "image_urls": {
+                "thumbnail": "/images/rbg550x550.png",
+                "tnalt": "Ruth Bader Ginsberg project image",
+                "projectimg1": "/images/rbg1200.png",
+                "img1alt": "Ruth Bader Ginsberg project image",
+                "projectimg2": "/images/rbg1200x550.png",
+                "img2alt": "Ruth Bader Ginsberg project image",
+                "projectimg3": "/images/rgb1200x5003.jpg",
+                "img3alt": "Ruth Bader Ginsberg project image"
+            }
         },
         {
             "id": 2,
             "project_name": "What's that Phrase?",
             "description": "A word guessing game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed incorrectly the key with that letter changes to orange is disabled if it's guessed correctly it will change to black and display on the screen also disabling the letter",
             "technologies":["Javascript", "CSS", "HTML", "OOP"],
-            "livelink": "https://jelenamf.github.io/Whats-that-Phrase-game/",
-            "githublink": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
-            "thumbnail": "/images/phrasegame550.png",
-            "tnalt": "start game page",
-            "projectimg1": "/images/phrase1200x5501.jpg",
-            "img1alt": "What's that phrase start screen",
-            "projectimg2": "/images/gameboard1200x550.jpg",
-            "img2alt": "Game board",
-            "projectimg3": "/images/winningscreen1200x550.jpg",
-            "img3alt": "winning screen"
+            "live_link": "https://jelenamf.github.io/Whats-that-Phrase-game/",
+            "github_link": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
+            "image_urls": {
+                "thumbnail": "/images/phrasegame550.png",
+                "tnalt": "start game page",
+                "projectimg1": "/images/phrase1200x5501.jpg",
+                "img1alt": "What's that phrase start screen",
+                "projectimg2": "/images/gameboard1200x550.jpg",
+                "img2alt": "Game board",
+                "projectimg3": "/images/winningscreen1200x550.jpg",
+                "img3alt": "winning screen"
+            }
+           
         },
         {
             "id": 3,
             "project_name": "Link Four",
             "description": "A game similar to connect four. Players are instructed on how to use the arrow keys to move the tokens across the board",
             "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
-            "livelink": "https://jelenamf.github.io/Link-four/",
-            "githublink": "https://github.com/JelenaMF/Link-four",
-            "thumbnail": "/images/link4start.png",
-            "tnalt": "Link four start page",
-            "projectimg1": "/images/link4.png",
-            "img1alt": "Link 4 game board",
-            "projectimg2": "/images/link4gameboard.png",
-            "img2alt": "link4 gameboard with tokens",
-            "projectimg3": "/images/link4winning.png",
-            "img3alt": "link four winning page"
+            "live_link": "https://jelenamf.github.io/Link-four/",
+            "github_link": "https://github.com/JelenaMF/Link-four",
+            "image_urls": {
+                "thumbnail": "/images/link4start.png",
+                "tnalt": "Link four start page",
+                "projectimg1": "/images/link4.png",
+                "img1alt": "Link 4 game board",
+                "projectimg2": "/images/link4gameboard.png",
+                "img2alt": "link4 gameboard with tokens",
+                "projectimg3": "/images/link4winning.png",
+                "img3alt": "link four winning page"
+            }
         },
         {
             "id": 4,
             "project_name": "Event Registration Form",
             "description": "This is a sign up sheet with required fields to submit the form. Users will be informed if they missed a required field before the submit button is pressed but the submit button won't submit if they're any empty required fields.",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "livelink": "https://jelenamf.github.io/Event-Registration-form/",
-            "githublink": "https://github.com/JelenaMF/Event-Registration-form",
-            "thumbnail": "/images/eventform550.png",
-            "tnalt": "The registration form page",
-            "projectimg1": "/images/rsz_formerrors.png",
-            "img1alt": "Form showing theme selection",
-            "projectimg2": "/images/paymentsection.png",
-            "img2alt": "The payment section",
-            "projectimg3": "/images/formactivity.png",
-            "img3alt": "form activity section"
+            "live_link": "https://jelenamf.github.io/Event-Registration-form/",
+            "github_link": "https://github.com/JelenaMF/Event-Registration-form",
+            "image_urls": {
+                "thumbnail": "/images/eventform550.png",
+                "tnalt": "The registration form page",
+                "projectimg1": "/images/rsz_formerrors.png",
+                "img1alt": "Form showing theme selection",
+                "projectimg2": "/images/paymentsection.png",
+                "img2alt": "The payment section",
+                "projectimg3": "/images/formactivity.png",
+                "img3alt": "form activity section"
+            }
         },
         {
             "id": 5,
             "project_name": "Employee Directory",
             "description": "This employee directory pulls up twelve random employees. Click on an Employee card and a module will pop-up with their information. The next and previous buttons allow you to look at the next or previous employee unless you're at the first or last employee in the directory. The search bar allows you to search for the employee on the page.",
             "technologies": ["JavaScript", "HTML", "CSS", "Fetching Public API"],
-            "livelink": "https://jelenamf.github.io/Employee-Directory/",
-            "githublink": "https://github.com/JelenaMF/Employee-Directory",
-            "thumbnail":"/images/EmpDir550.png",
-            "tnalt": "the employee directory",
-            "projectimg1": "/images/firstmodule1200.png",
-            "img1alt": "module of the first employee in the directory",
-            "projectimg2": "/images/lastmod1200.png",
-            "img2alt": "module of the last employee in the directory",
-            "projectimg3": "/images/midmod1200.png",
-            "img3alt": "The employee modules of the employees in between the first and last"
+            "live_link": "https://jelenamf.github.io/Employee-Directory/",
+            "github_link": "https://github.com/JelenaMF/Employee-Directory",
+            "image_urls": {
+                "thumbnail":"/images/EmpDir550.png",
+                "tnalt": "the employee directory",
+                "projectimg1": "/images/firstmodule1200.png",
+                "img1alt": "module of the first employee in the directory",
+                "projectimg2": "/images/lastmod1200.png",
+                "img2alt": "module of the last employee in the directory",
+                "projectimg3": "/images/midmod1200.png",
+                "img3alt": "The employee modules of the employees in between the first and last"
+            }
         },
         {
             "id": 6,
             "project_name": "Realtor Flashcards",
             "description": "Created this project to help people study for the realtor exam. On the question page there's a link to a hint before flipping over to see the answer if the user is having trouble. They can click the next button can be clicked from either side question or answer.",
             "technologies": ["JavaScript", "HTML", "CSS", "Node.js", "Express"],
-            "livelink": "https://realtor-flashcards.herokuapp.com",
-            "githublink": "https://github.com/JelenaMF/realtor-flashcards",
-            "thumbnail":"/images/realtorfc550.png",
-            "tnalt": "flashcard home page",
-            "projectimg1": "/images/realtorfc1200.png",
-            "img1alt": "welcome page",
-            "projectimg2": "/images/realtorfcq1200.png",
-            "img2alt": "flash card question page",
-            "projectimg3": "/images/realtorfca1200.png",
-            "img3alt": "flashcard answer page"
+            "live_link": "https://realtor-flashcards.herokuapp.com",
+            "github_link": "https://github.com/JelenaMF/realtor-flashcards",
+            "image_urls": {
+                "thumbnail":"/images/realtorfc550.png",
+                "tnalt": "flashcard home page",
+                "projectimg1": "/images/realtorfc1200.png",
+                "img1alt": "welcome page",
+                "projectimg2": "/images/realtorfcq1200.png",
+                "img2alt": "flash card question page",
+                "projectimg3": "/images/realtorfca1200.png",
+                "img3alt": "flashcard answer page"
+            }
         }
         
     ]
