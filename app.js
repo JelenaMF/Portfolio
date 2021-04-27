@@ -26,8 +26,7 @@ app.use((req, res, next) => {
 //error handler to catch global errors
 app.use((err, req, res, next) => {
     res.locals.error = err; 
-    res.render('error', err);
-    res.render(console.log(err.status, '-no page found'))
+    res.render('error', console.log(err.status, '-no page found'));
 }); 
 
 app.listen(3000, () => {
