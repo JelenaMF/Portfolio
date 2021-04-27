@@ -63,6 +63,7 @@ p{
 
 .aboutInfo {
   color: black;
+  font-size: 15px;
 }
 
 .profile {
@@ -125,11 +126,132 @@ h2 {
   color:rgb(250, 246, 246);
 }
 
+/*
+  Sidebar and mobile header
+*/
+nav {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+  background: #553071;
+  
+}
+
+nav a {
+  width: 100%;
+  vertical-align: middle;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgb(220, 189, 213); 
+}
+
+
+nav a span {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: -300px;
+  bottom: 0;
+  min-width: 300px;
+  max-width: 300px;
+  height: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background: #000;
+}
+
+.sidebar-info-box {
+  margin: auto;
+}
+
+.thumbnail-box {
+  padding: 0 10px;
+}
+
+.sidebar .thumbnail {
+  width: 100%;
+  max-width: 250px;
+  border: 4px solid #fff;
+}
+
+.dev-intro-box {
+  padding: 10px;
+}
+
+.projectInfo{
+  color: black;
+}
+
+.sidebar h5 {
+  color: #fefefe;
+  margin: 0 auto 0.5rem;
+}
+
+.sidebar p {
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #999
+}
+
+.sidebar a {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.header {
+  vertical-align: middle;
+  color: #fefefe;
+  height: 40px;
+  padding: 0.5rem;
+  background: #0a0a0a;
+  border-left: 1px solid #0a0a0a;
+}
+
+.header span {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.header button {
+  vertical-align: top;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  width: 18px;
+  height: 16px;
+  border: none;
+  background: #0a0a0a;
+  margin-top: 3px;
+  margin-right: 10px;
+  border-top: 2px solid #fefefe;
+  border-bottom: 2px solid #fefefe;
+}
+
+.header button:after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: #fefefe;
+}
 
 /*animated elements*/
 .btn-link:hover {
   max-width: 275px;
-
   color: goldenrod; 
 }
 
@@ -139,15 +261,16 @@ h2 {
     
 }
 
+.sidebar a:hover {
+  font-size: 17px;
+  color: goldenrod;
+}
+
 a:hover {
   font-size: 17px;
   color: goldenrod;
 }
 
-.sidebar a:hover {
-  font-size: 17px;
-  color: goldenrod;
-}
 /*
   Home page styles
 */
@@ -232,12 +355,19 @@ a:hover {
   border: 1px solid transparent;
 }
 
+.aboutInfo {
+  color: black;
+}
+
 /* 
   Tablet layout styles 
 */
-@media  screen and (min-width: 360px)
-  and (min-device-width:768px) { 
+@media  screen and (min-device-width: 768px)
+   { 
   
+  body{
+    width: 100%;
+  }
   .sidebar h5 {
     font-size: 1.25rem;
   }
@@ -246,7 +376,7 @@ a:hover {
     font-size: 3rem;
   }
 
-  .about-intro-box p,
+.about-intro-box p,
 .project-info-box p {
   font-size: 125%;
 }
@@ -283,7 +413,18 @@ nav a span {
   font-size: 1.25rem;
 }
 
-
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: -300px;
+  bottom: 0;
+  min-width: 300px;
+  max-width: 300px;
+  height: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background: #000;
+}
 
 .sidebar-info-box {
   margin: auto;
@@ -303,18 +444,9 @@ nav a span {
   padding: 10px;
 }
 
-.sidebar {
-  position: absolute;
-  top: 0;
-  left: -300px;
-  bottom: 0;
-  min-width: 300px;
-  max-width: 300px;
-  height: 100%;
-  min-height: 100%;
-  padding: 20px;
-  background: #000;
-} 
+.projectInfo{
+  color: black;
+}
 
 .sidebar h5 {
   color: #fefefe;
@@ -356,7 +488,7 @@ nav a span {
   cursor: pointer;
   outline: none;
   position: relative;
-  width: 20px;
+  width: 18px;
   height: 16px;
   border: none;
   background: #0a0a0a;
@@ -418,6 +550,7 @@ nav a span {
   .header {
     display: none;
   }
+
 
   .wrapper {
     margin-left: 300px;
