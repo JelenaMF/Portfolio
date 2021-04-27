@@ -1,9 +1,9 @@
 using Node.js and Express to:
 
 Import the required dependencies
-    *pug
-    *express
-    *heroku
+    * Pug
+    * Express
+    * Heroku
 directory data contains projects.json file
 Set up routes to handle requests
 Set up the middleware to utilize static files like CSS
