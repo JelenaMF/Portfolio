@@ -94,7 +94,8 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 30px;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box {
@@ -138,16 +139,15 @@ h2 {
     
 }
 
-.sidebar a:hover {
-  font-size: 17px;
-  color: goldenrod;
-}
-
 a:hover {
   font-size: 17px;
   color: goldenrod;
 }
 
+.sidebar a:hover {
+  font-size: 17px;
+  color: goldenrod;
+}
 /*
   Home page styles
 */
@@ -232,10 +232,29 @@ a:hover {
   border: 1px solid transparent;
 }
 
-.aboutInfo {
-  color: black;
+/* 
+  Tablet layout styles 
+*/
+@media  screen and (min-width: 360px)
+  and (min-device-width:768px) { 
+  
+  .sidebar h5 {
+    font-size: 1.25rem;
+  }
+
+  .portfolio-intro h1 {
+    font-size: 3rem;
+  }
+
+  .about-intro-box p,
+.project-info-box p {
+  font-size: 125%;
 }
 
+.about-bio p {
+  font-size: 15px;
+  padding-top: 40px;
+}
 /*
   Sidebar and mobile header
 */
@@ -264,18 +283,7 @@ nav a span {
   font-size: 1.25rem;
 }
 
-.sidebar {
-  position: absolute;
-  top: 0;
-  left: -300px;
-  bottom: 0;
-  min-width: 300px;
-  max-width: 300px;
-  height: 100%;
-  min-height: 100%;
-  padding: 20px;
-  background: #000;
-}
+
 
 .sidebar-info-box {
   margin: auto;
@@ -293,10 +301,6 @@ nav a span {
 
 .dev-intro-box {
   padding: 10px;
-}
-
-.projectInfo{
-  color: black;
 }
 
 .sidebar {
@@ -371,34 +375,6 @@ nav a span {
   height: 2px;
   background: #fefefe;
 }
-
-/* 
-  Tablet layout styles 
-*/
-@media  screen and (min-width: 768px)
-   { 
-  
-  body{
-    width: 100%;
-  }
-  .sidebar h5 {
-    font-size: 1.25rem;
-  }
-
-  .portfolio-intro h1 {
-    font-size: 3rem;
-  }
-
-.about-intro-box p,
-.project-info-box p {
-  font-size: 125%;
-}
-
-.about-bio p {
-  font-size: 15px;
-  padding-top: 40px;
-}
-
 .skills-contact-box ul {
   margin-bottom: 35px;
 }
