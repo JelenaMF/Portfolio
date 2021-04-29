@@ -11,10 +11,8 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
       
-        //- dynamically add the project title
         h1= project.project_name
 
-        //- dynamically add the project description
         p.projectInfo= project.description
 
       .project-tech-links-box.box
@@ -29,7 +27,6 @@ block content
 
     .project-img-box.box
 
-      //-  add your project images, and add descriptions to the alt attributes
       img.project-img(src=`${project.image_urls.projectimg1}`, alt=`${project.image_urls.img1alt}`)
       img.project-img(src=`${project.image_urls.projectimg2}`, alt=`${project.image_urls.img2alt}`)
       img.project-img(src=`${project.image_urls.projectimg3}`, alt=`${project.image_urls.img3alt}`)

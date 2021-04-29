@@ -118,7 +118,7 @@ a {
 }
 
 .box li {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 h2 {
@@ -533,6 +533,7 @@ nav a span {
   }
 
   .cell h5 {
+    text-align: center;
     font-size: 1.25rem;
   }
 

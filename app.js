@@ -19,14 +19,24 @@ app.get('/about', (req,res) => {
 
 //error handler to catch 404
 app.use((req, res, next) => {
-    const err = new Error("Whoops. Nothing to see here. Return to the home page. Click ");
-    err.status = 404;
-    next(err);
+    console.log('404 error handler called');
+
+    res.status(404).render('pageNotFound');
 })
 //error handler to catch global errors
 app.use((err, req, res, next) => {
     res.locals.error = err; 
-    res.render('error', console.log(err.status, '-no page found'));
+    if(err) {
+        console.log('Global error handler called', err);
+    } 
+    if(err.status === 404) {
+        err.message = `Oops! Looks like the project you're looking for is not found 😥`;
+        res.status(404).render('pageNotFound', {err});
+
+    } else {
+        err.message = `Oops! Looks like something went wrong with the server 😥`;
+        res.status(err.status || 500).render('error', {err});
+    }
 }); 
 
 app.listen(3000, () => {
