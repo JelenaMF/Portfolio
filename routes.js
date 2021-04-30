@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const {projects} = require('./data/projects.json');
+const {projects} = require('./data/data.json');
 
 //create route to home page
 router.get('/', (req, res) => {
