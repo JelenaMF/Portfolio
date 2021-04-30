@@ -26,13 +26,9 @@ app.use((req, res, next) => {
 //error handler to catch global errors
 app.use((err, req, res, next) => {
     res.locals.error = err; 
-    if(err) {
-        console.log('Global error handler called', err);
-    } 
     if(err.status === 404) {
         err.message = `Oops! Looks like the project you're looking for is not found 😥`;
         res.status(404).render('pageNotFound', {err});
-
     } else {
         err.message = `Oops! Looks like something went wrong with the server 😥`;
         res.status(err.status || 500).render('error', {err});

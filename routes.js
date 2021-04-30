@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
 router.get('/error', (req, res, next) => {
 
     // Log out custom error handler indication
-    console.log('Custom error route called');
+    console.log('Server error');
   
     const err = new Error();
     err.message = `Custom 500 error thrown`
@@ -20,19 +20,18 @@ router.get('/error', (req, res, next) => {
     throw err;
   });
 
-//route to the project route based on the id of the project
-router.get('/projects/:id', (req,res) => {
+//route to the project route based on the id of the project and create an error page 
+router.get('/projects/:id', (req,res, next) => {
     //render project page 
     const projectId = req.params.id;
     //render the matching project id 
-
     const project = projects.find(({id}) => id === +projectId)
     if(project) {
         res.render('project', {project});
     } else {
         const err = new Error();
         err.status = 404;
-        err.message = 'Looks like the requested project does not exist. ';
+        err.message = 'Looks like the requested project does not exist.';
         next(err);
     }
 });
