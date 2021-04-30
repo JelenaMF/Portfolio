@@ -8,13 +8,13 @@
             "live_link": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
             "github_link": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
             "image_urls": {
-                "thumbnail": "/images/rbg550x550.png",
+                "thumbnail": "/static/images/rbg550x550.png",
                 "tnalt": "Ruth Bader Ginsberg project image",
-                "projectimg1": "/images/rbg1200.png",
+                "projectimg1": "/static/images/rbg1200.png",
                 "img1alt": "Ruth Bader Ginsberg project image",
-                "projectimg2": "/images/rbg1200x550.png",
+                "projectimg2": "/static/images/rbg1200x550.png",
                 "img2alt": "Ruth Bader Ginsberg project image",
-                "projectimg3": "/images/rgb1200x5003.jpg",
+                "projectimg3": "/static/images/rgb1200x5003.jpg",
                 "img3alt": "Ruth Bader Ginsberg project image"
             }
         },
@@ -26,13 +26,13 @@
             "live_link": "https://jelenamf.github.io/Whats-that-Phrase-game/",
             "github_link": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
             "image_urls": {
-                "thumbnail": "/images/phrasegame550.png",
+                "thumbnail": "/static/images/phrasegame550.png",
                 "tnalt": "start game page",
-                "projectimg1": "/images/phrase1200x5501.jpg",
+                "projectimg1": "/static/images/phrase1200x5501.jpg",
                 "img1alt": "What's that phrase start screen",
-                "projectimg2": "/images/gameboard1200x550.jpg",
+                "projectimg2": "/static/images/gameboard1200x550.jpg",
                 "img2alt": "Game board",
-                "projectimg3": "/images/winningscreen1200x550.jpg",
+                "projectimg3": "/static/images/winningscreen1200x550.jpg",
                 "img3alt": "winning screen"
             }
            
@@ -45,13 +45,13 @@
             "live_link": "https://jelenamf.github.io/Link-four/",
             "github_link": "https://github.com/JelenaMF/Link-four",
             "image_urls": {
-                "thumbnail": "/images/link4start.png",
+                "thumbnail": "/static/images/link4start.png",
                 "tnalt": "Link four start page",
-                "projectimg1": "/images/link4.png",
+                "projectimg1": "/static/images/link4.png",
                 "img1alt": "Link 4 game board",
-                "projectimg2": "/images/link4gameboard.png",
+                "projectimg2": "/static/images/link4gameboard.png",
                 "img2alt": "link4 gameboard with tokens",
-                "projectimg3": "/images/link4winning.png",
+                "projectimg3": "/static/images/link4winning.png",
                 "img3alt": "link four winning page"
             }
         },
@@ -63,13 +63,13 @@
             "live_link": "https://jelenamf.github.io/Event-Registration-form/",
             "github_link": "https://github.com/JelenaMF/Event-Registration-form",
             "image_urls": {
-                "thumbnail": "/images/eventform550.png",
+                "thumbnail": "/static/images/eventform550.png",
                 "tnalt": "The registration form page",
-                "projectimg1": "/images/rsz_formerrors.png",
+                "projectimg1": "/static/images/rsz_formerrors.png",
                 "img1alt": "Form showing theme selection",
-                "projectimg2": "/images/paymentsection.png",
+                "projectimg2": "/static/images/paymentsection.png",
                 "img2alt": "The payment section",
-                "projectimg3": "/images/formactivity.png",
+                "projectimg3": "/static/images/formactivity.png",
                 "img3alt": "form activity section"
             }
         },
@@ -81,13 +81,13 @@
             "live_link": "https://jelenamf.github.io/Employee-Directory/",
             "github_link": "https://github.com/JelenaMF/Employee-Directory",
             "image_urls": {
-                "thumbnail":"/images/EmpDir550.png",
+                "thumbnail":"/static/images/EmpDir550.png",
                 "tnalt": "the employee directory",
-                "projectimg1": "/images/firstmodule1200.png",
+                "projectimg1": "/static/images/firstmodule1200.png",
                 "img1alt": "module of the first employee in the directory",
-                "projectimg2": "/images/lastmod1200.png",
+                "projectimg2": "/static/images/lastmod1200.png",
                 "img2alt": "module of the last employee in the directory",
-                "projectimg3": "/images/midmod1200.png",
+                "projectimg3": "/static/images/midmod1200.png",
                 "img3alt": "The employee modules of the employees in between the first and last"
             }
         },
@@ -99,13 +99,13 @@
             "live_link": "https://realtor-flashcards.herokuapp.com",
             "github_link": "https://github.com/JelenaMF/realtor-flashcards",
             "image_urls": {
-                "thumbnail":"/images/realtorfc550.png",
+                "thumbnail":"/static/images/realtorfc550.png",
                 "tnalt": "flashcard home page",
-                "projectimg1": "/images/realtorfc1200.png",
+                "projectimg1": "/static/images/realtorfc1200.png",
                 "img1alt": "welcome page",
-                "projectimg2": "/images/realtorfcq1200.png",
+                "projectimg2": "/static/images/realtorfcq1200.png",
                 "img2alt": "flash card question page",
-                "projectimg3": "/images/realtorfca1200.png",
+                "projectimg3": "/static/images/realtorfca1200.png",
                 "img3alt": "flashcard answer page"
             }
         }

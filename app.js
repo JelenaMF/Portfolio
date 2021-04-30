@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const routes = require('./routes')
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
 
 app.set('view engine', 'pug');
@@ -19,15 +19,17 @@ app.get('/about', (req,res) => {
 
 //error handler to catch 404
 app.use((req, res, next) => {
-    console.log('404 error handler called');
-
-    res.status(404).render('page-not-found');
+    const err = new Error();
+    err.status = 404;
+    next(err);
 })
+
 //error handler to catch global errors
 app.use((err, req, res, next) => {
     res.locals.error = err; 
     if(err.status === 404) {
-        err.message = `Oops! Looks like the project you're looking for is not found 😥`;
+        console.log('404 error handler called');
+        err.message = `Oops! Looks like the project you're looking for doesn't exist 😥`;
         res.status(404).render('page-not-found', {err});
     } else {
         err.message = `Oops! Looks like something went wrong with the server 😥`;
