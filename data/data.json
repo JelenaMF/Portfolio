@@ -40,7 +40,7 @@
         {
             "id": 3,
             "project_name": "Link Four",
-            "description": "A game similar to connect four. Players are instructed on how to use the arrow keys to move the tokens across the board",
+            "description": "A game similar to connect four. On the start page, players are instructed how to play the game. When the game is over players are able to start a new game by pressing the button the page.",
             "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
             "live_link": "https://jelenamf.github.io/Link-four/",
             "github_link": "https://github.com/JelenaMF/Link-four",
