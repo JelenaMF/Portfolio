@@ -47,12 +47,12 @@
             "image_urls": {
                 "thumbnail": "/static/images/link4start.png",
                 "tnalt": "Link four start page",
-                "projectimg1": "/static/images/link4.png",
+                "projectimg1": "/static/images/link4.jpg",
                 "img1alt": "Link 4 game board",
                 "projectimg2": "/static/images/link4gameboard.png",
                 "img2alt": "link4 gameboard with tokens",
-                "projectimg3": "/static/images/link4winning.png",
-                "img3alt": "link four winning page"
+                "projectimg3": "/static/images/link4winning.jpg",
+                "img3alt": "link four game over page"
             }
         },
         {
