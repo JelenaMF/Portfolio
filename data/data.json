@@ -21,7 +21,7 @@
         {
             "id": 2,
             "project_name": "What's that Phrase?",
-            "description": "A word guessing game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed incorrectly the key with that letter changes to orange is disabled if it's guessed correctly it will change to black and display on the screen also disabling the letter. Note: The timer feature on restart is currently being worked on. Refresh page to start a new game with the timer for now.",
+            "description": "A word guessing game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed incorrectly the key with that letter changes to orange is disabled if it's guessed correctly it will change to black and display on the screen also disabling the letter. Make sure you guess the phrase before time runs out. You have sixty seconds",
             "technologies":["Javascript", "CSS", "HTML", "OOP"],
             "live_link": "https://jelenamf.github.io/Whats-that-Phrase-game/",
             "github_link": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
