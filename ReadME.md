@@ -21,3 +21,4 @@ update changes made to:
 * added a user friendly error page 
 
 This app was created to share my recent work. This is my portfolio to share with future partners. 
+[portfolio- live-link](https://jelena-portfolio.herokuapp.com/)
