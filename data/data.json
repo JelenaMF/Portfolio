@@ -29,9 +29,9 @@
                 "thumbnail": "/static/images/phrasegame550.png",
                 "tnalt": "start game page",
                 "projectimg1": "/static/images/phrase1200X5501.png",
-                "img1alt": "The Timer",
+                "img1alt": "The Phrase game board displaying the added timer and hint button",
                 "projectimg2": "/static/images/gameboard1200x550.jpg",
-                "img2alt": "Game board",
+                "img2alt": "Game board displaying the hint.",
                 "projectimg3": "/static/images/winningscreen1200x550.jpg",
                 "img3alt": "winning screen"
             }
