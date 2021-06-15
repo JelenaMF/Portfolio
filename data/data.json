@@ -21,7 +21,7 @@
         {
             "id": 2,
             "project_name": "What's that Phrase?",
-            "description": "A word guessing game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed incorrectly the key with that letter changes to orange is disabled if it's guessed correctly it will change to black and display on the screen also disabling the letter. Make sure you guess the phrase before time runs out. You have sixty seconds",
+            "description": "A word guessing game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed incorrectly the key with that letter changes to orange is disabled if it's guessed correctly it will change to black and display on the screen also disabling the letter. Make sure you guess the phrase before time runs out. You have sixty seconds. If you're stuck take advantage of the hint button for a clue.",
             "technologies":["Javascript", "CSS", "HTML", "OOP"],
             "live_link": "https://jelenamf.github.io/Whats-that-Phrase-game/",
             "github_link": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
@@ -40,7 +40,7 @@
         {
             "id": 3,
             "project_name": "Link Four",
-            "description": "A game similar to connect four. On the start page, players are instructed how to play the game. When the game is over players are able to start a new game by pressing the button the page.",
+            "description": "A game similar to connect four. On the start page, players are instructed how to play the game. When the game is over, players are able to start a new game by pressing the 'start a new game' button on the page.",
             "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
             "live_link": "https://jelenamf.github.io/Link-four/",
             "github_link": "https://github.com/JelenaMF/Link-four",
