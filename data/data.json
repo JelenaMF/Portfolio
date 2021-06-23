@@ -3,7 +3,7 @@
         {
             "id": 1,
             "project_name": "Ruth Bader Ginsburg Quotes",
-            "description": "Inspiring feminist quotes by the feminist herself Ruth Bader Ginsburg each quote populates randomly, with an image of her",
+            "description": "A random quote generator dedicated to the late Ruth Bader Ginsburg. She was a true inspiration for women everywhere.",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
             "github_link": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
