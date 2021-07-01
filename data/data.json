@@ -8,7 +8,7 @@
             "live_link": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
             "github_link": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
             "image_urls": {
-                "thumbnail": "/static/images/rbg550x550.png",
+                "thumbnail": "/static/images/rgb520.jpg",
                 "tnalt": "Ruth Bader Ginsberg project image",
                 "projectimg1": "/static/images/rbg1200.png",
                 "img1alt": "Ruth Bader Ginsberg project image",
@@ -26,7 +26,7 @@
             "live_link": "https://jelenamf.github.io/Whats-that-Phrase-game/",
             "github_link": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
             "image_urls": {
-                "thumbnail": "/static/images/phrasegame550.png",
+                "thumbnail": "/static/images/startpage520.jpg",
                 "tnalt": "start game page",
                 "projectimg1": "/static/images/phrase1200X5501.png",
                 "img1alt": "The Phrase game board displaying the added timer and hint button",
@@ -45,7 +45,7 @@
             "live_link": "https://jelenamf.github.io/Link-four/",
             "github_link": "https://github.com/JelenaMF/Link-four",
             "image_urls": {
-                "thumbnail": "/static/images/link4start.png",
+                "thumbnail": "/static/images/link4start.jpg",
                 "tnalt": "Link four start page",
                 "projectimg1": "/static/images/link4.jpg",
                 "img1alt": "Link 4 game board",
