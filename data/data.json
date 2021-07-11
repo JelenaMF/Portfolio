@@ -49,7 +49,7 @@
                 "tnalt": "Link four start page",
                 "projectimg1": "/static/images/link4.jpg",
                 "img1alt": "Link 4 game board",
-                "projectimg2": "/static/images/link4gameboard.png",
+                "projectimg2": "/static/images/1link4gameboard.jpg",
                 "img2alt": "link4 gameboard with tokens",
                 "projectimg3": "/static/images/link4winning.jpg",
                 "img3alt": "link four game over page"
@@ -63,13 +63,13 @@
             "live_link": "https://jelenamf.github.io/Event-Registration-form/",
             "github_link": "https://github.com/JelenaMF/Event-Registration-form",
             "image_urls": {
-                "thumbnail": "/static/images/eventform550.png",
+                "thumbnail": "/static/images/eventform550.jpg",
                 "tnalt": "The registration form page",
                 "projectimg1": "/static/images/rsz_formerrors.png",
                 "img1alt": "Form showing theme selection",
                 "projectimg2": "/static/images/paymentsection.png",
                 "img2alt": "The payment section",
-                "projectimg3": "/static/images/formactivity.png",
+                "projectimg3": "/static/images/formactivity.jpg",
                 "img3alt": "form activity section"
             }
         },
@@ -81,11 +81,11 @@
             "live_link": "https://jelenamf.github.io/Employee-Directory/",
             "github_link": "https://github.com/JelenaMF/Employee-Directory",
             "image_urls": {
-                "thumbnail":"/static/images/EmpDir550.png",
+                "thumbnail":"/static/images/EmpDir550.jpg",
                 "tnalt": "the employee directory",
-                "projectimg1": "/static/images/firstmodule1200.png",
+                "projectimg1": "/static/images/firstmodule1200.jpg",
                 "img1alt": "module of the first employee in the directory",
-                "projectimg2": "/static/images/lastmod1200.png",
+                "projectimg2": "/static/images/lastmod1200.jpg",
                 "img2alt": "module of the last employee in the directory",
                 "projectimg3": "/static/images/midmod1200.png",
                 "img3alt": "The employee modules of the employees in between the first and last"
@@ -99,7 +99,7 @@
             "live_link": "https://realtor-flashcards.herokuapp.com",
             "github_link": "https://github.com/JelenaMF/realtor-flashcards",
             "image_urls": {
-                "thumbnail":"/static/images/realtorfc550.png",
+                "thumbnail":"/static/images/realtorfc550.jpg",
                 "tnalt": "flashcard home page",
                 "projectimg1": "/static/images/realtorfc1200.png",
                 "img1alt": "welcome page",
