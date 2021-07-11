@@ -81,7 +81,7 @@
             "live_link": "https://jelenamf.github.io/Employee-Directory/",
             "github_link": "https://github.com/JelenaMF/Employee-Directory",
             "image_urls": {
-                "thumbnail":"/static/images/EmpDir550.jpg",
+                "thumbnail":"/static/images/empdir550.jpg",
                 "tnalt": "the employee directory",
                 "projectimg1": "/static/images/firstmodule1200.jpg",
                 "img1alt": "module of the first employee in the directory",
