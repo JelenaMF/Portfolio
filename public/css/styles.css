@@ -24,7 +24,6 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
   transition: all 0.4s ease-out;
 }
 
@@ -276,7 +275,7 @@ a:hover {
 .portfolio-intro {
   width: 100%;
   padding: 40px 50px 30px;
-  background-color: rgba(46, 16, 99, 0.251);
+  background: url('https://4.bp.blogspot.com/-KC2Emc38jyY/UtJuKT9acjI/AAAAAAAAGd4/IWuc9LW2R2Y/s1600/dark-textured-background-pattern-picture-template-for-wordpress-blogger.jpg');
 }
 
 .portfolio-intro h1 {
@@ -391,7 +390,8 @@ nav {
   width: 100%;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
-  background: #553071;
+  background:url('https://4.bp.blogspot.com/-KC2Emc38jyY/UtJuKT9acjI/AAAAAAAAGd4/IWuc9LW2R2Y/s1600/dark-textured-background-pattern-picture-template-for-wordpress-blogger.jpg');
+
   
 }
 
