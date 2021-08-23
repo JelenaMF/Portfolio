@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Viaoda+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Urbanist:wght@200;500&display=swap');
 
 /*
   Main styles
@@ -39,7 +40,6 @@ h1 {
 }
 
 h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -56,7 +56,7 @@ h6{
 
 
 .profile {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Klee One', cursive;
   background-color: rgba(0, 0, 0, 0.445);
   color: rgb(248, 240, 240);
 }
@@ -113,6 +113,7 @@ a {
 
 h2 {
   color:rgb(250, 246, 246);
+  font-family: 'Klee One', cursive;
 }
 
 /*
@@ -312,15 +313,16 @@ a:hover {
 }
 
 .about-intro-box span {
-  font-family: monospace;
+  font-family: 'Klee One', cursive;
   color: white;
   font-weight: 800;
 }
 
 .about-bio {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15px;
   padding: 0 15px;
   font-weight: 700;
   background-color: rgba(98, 58, 105, 0.658);
@@ -337,6 +339,10 @@ a:hover {
   margin-bottom: 15px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+}
+
+.project-img-box{
+  background-image: url('https://images.pexels.com/photos/459301/pexels-photo-459301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
 .btn-link {
