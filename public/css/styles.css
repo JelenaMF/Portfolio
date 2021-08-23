@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 /*
   Main styles
@@ -15,6 +16,7 @@ body {
   min-width: 100%;
   height: 100%;
   min-height: 100%;
+  background: black;
 }
 
 body {
@@ -23,21 +25,17 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
   transition: all 0.4s ease-out;
 }
 
 article {
   background: rgb(164, 115, 175); 
+  width: 100%;
 }
 
 h1 {
   font-family: 'Bad Script', cursive;
   color: rgb(248, 240, 240);
-}
-
-h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
 }
 
 h5{
@@ -55,20 +53,11 @@ h6{
   font-weight: 600;
 }
 
-p{
-  font-size: 15px;
-  color: gray;
-}
 
-.aboutInfo {
-
-  color: black;
-  font-size: 15px;
-}
 
 .profile {
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(0, 0, 0, 0.445);
   color: rgb(248, 240, 240);
 }
 
@@ -278,21 +267,14 @@ a:hover {
 }
 
 .portfolio-intro h1 {
-  font-size: 1.5rem;
   margin: 0 auto 8px;
   text-shadow: 5px 3px 3px  rgb(27, 25, 25);
 
 }
 
-.portfolio-intro p {
-  text-rendering: optimizeLegibility;
-  font-size: 25px;
+.profile{
+  font-size: 20px;
   font-weight: 800;
-  margin: 0 auto;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #eaeaea;
-  text-shadow: 5px 3px 3px  rgb(20, 19, 19);
-
 }
 
 .projects-box h5 {
@@ -325,11 +307,24 @@ a:hover {
   font-size: 125%;
 }
 
+.about-intro-box.box{
+  background-image: url('https://images.pexels.com/photos/459301/pexels-photo-459301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
 
+.about-intro-box span {
+  font-family: monospace;
+  color: white;
+  font-weight: 800;
+}
 
-.about-bio p {
-  font-size: 15px;
-  padding-top: 40px;
+.about-bio {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0 15px;
+  font-weight: 700;
+  background-color: rgba(98, 58, 105, 0.658);
+  color: rgb(237, 214, 247);
 }
 
 .skills-contact-box ul {
@@ -360,233 +355,3 @@ a:hover {
   color: black;
 }
 
-/* 
-  Tablet layout styles 
-*/
-@media  screen and (min-device-width: 768px)
-   { 
-  
-  body{
-    width: 100%;
-  }
-  .sidebar h5 {
-    font-size: 1.25rem;
-  }
-
-  .portfolio-intro h1 {
-    font-size: 3rem;
-  }
-
-.about-intro-box p,
-.project-info-box p {
-  font-size: 125%;
-}
-
-.about-bio p {
-  font-size: 15px;
-  padding-top: 40px;
-}
-/*
-  Sidebar and mobile header
-*/
-nav {
-  width: 100%;
-  padding: 20px;
-  border-bottom: 1px solid #eaeaea;
-  background:url('https://4.bp.blogspot.com/-KC2Emc38jyY/UtJuKT9acjI/AAAAAAAAGd4/IWuc9LW2R2Y/s1600/dark-textured-background-pattern-picture-template-for-wordpress-blogger.jpg');
-
-  
-}
-
-nav a {
-  width: 100%;
-  vertical-align: middle;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: rgb(220, 189, 213); 
-}
-
-
-nav a span {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-.sidebar {
-  position: absolute;
-  top: 0;
-  left: -300px;
-  bottom: 0;
-  min-width: 300px;
-  max-width: 300px;
-  height: 100%;
-  min-height: 100%;
-  padding: 20px;
-  background: #000;
-}
-
-.sidebar-info-box {
-  margin: auto;
-}
-
-.thumbnail-box {
-  padding: 0 10px;
-}
-
-.sidebar .thumbnail {
-  width: 100%;
-  max-width: 250px;
-  border: 4px solid #fff;
-}
-
-.dev-intro-box {
-  padding: 10px;
-}
-
-.projectInfo{
-  color: black;
-}
-
-.sidebar h5 {
-  color: #fefefe;
-  margin: 0 auto 0.5rem;
-}
-
-.sidebar p {
-  text-rendering: optimizeLegibility;
-  line-height: 1.6;
-  font-size: 14px;
-  color: #999
-}
-
-.sidebar a {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: #555;
-}
-
-.header {
-  vertical-align: middle;
-  color: #fefefe;
-  height: 40px;
-  padding: 0.5rem;
-  background: #0a0a0a;
-  border-left: 1px solid #0a0a0a;
-}
-
-.header span {
-  display: inline-block;
-  font-weight: bold;
-}
-
-.header button {
-  vertical-align: top;
-  cursor: pointer;
-  outline: none;
-  position: relative;
-  width: 18px;
-  height: 16px;
-  border: none;
-  background: #0a0a0a;
-  margin-top: 3px;
-  margin-right: 10px;
-  border-top: 2px solid #fefefe;
-  border-bottom: 2px solid #fefefe;
-}
-
-.header button:after {
-  content: '';
-  position: absolute;
-  top: 40%;
-  left: 0;
-  width: 20px;
-  height: 2px;
-  background: #fefefe;
-}
-.skills-contact-box ul {
-  margin-bottom: 35px;
-}
-  .box {
-    border-bottom: none;
-    background-color: rgb(164, 115, 175);
-  }
-
-  .portfolio-intro h1 {
-    font-size: 3rem;
-  }
-
-  .two-col .box:nth-of-type(1) {
-    width: 70%;
-    padding-right: 15px;
-  }
-  .two-col .box:nth-of-type(2) {
-    width: 30%;
-    padding-top: 50px;
-    padding-left: 15px;
-  }
-
-  .cell {
-    margin: 0 0 15px;
-  }
-
-  .cell h5 {
-    text-align: center;
-    font-size: 1.25rem;
-  }
-
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  }
-}
-
-
-/* 
-  Desktop layout styles 
-*/
-@media screen and (min-device-width: 1024px) {
-
-  html,
-body {
-  font-size: 100%;
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
-  max-height: 100%;
-}
-
-body {
-  position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
-  transition: all 0.4s ease-out;
-}
-
-  .sidebar {
-    left: 0;
-  }
-
-  .header {
-    display: none;
-  }
-
-
-  .wrapper {
-    margin-left: 300px;
-    width: calc(100% - 300px);
-  }
-
-  .inner-wrapper {
-    max-width: 1200px;
-  }
-
-}

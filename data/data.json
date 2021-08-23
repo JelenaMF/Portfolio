@@ -59,7 +59,7 @@
             "id": 4,
             "project_name": "Event Registration Form",
             "description": "This is a sign up sheet with required fields to submit the form. Users will be informed if they missed a required field before the submit button is pressed but the submit button won't submit if they're any empty required fields.",
-            "technologies": ["JavaScript", "HTML", "CSS"],
+            "technologies": ["JavaScript", "HTML", "CSS", "Web Accessibility"],
             "live_link": "https://jelenamf.github.io/Event-Registration-form/",
             "github_link": "https://github.com/JelenaMF/Event-Registration-form",
             "image_urls": {

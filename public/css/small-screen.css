@@ -1,0 +1,203 @@
+/* 
+  Tablet layout styles 
+*/
+@media  screen and  (min-width: 200px) and (max-width: 720px)
+   { 
+  
+  
+  .sidebar h5 {
+    font-size: 1.25rem;
+    height: 100%;
+  }
+
+  .wrapper{
+    max-width: max-content;
+    overflow-x: hidden;
+  }
+
+  .projects-box{
+      margin-left: 10px;
+  }
+  
+  .portfolio-intro{
+      padding: 10pc, 30px, 20px;
+      max-width: 100%;
+  }
+
+  .portfolio-intro h1{
+    font-size: 25px;
+  }
+
+  .portfolio-intro p {
+    text-rendering: optimizeLegibility;
+    font-size: 15px;
+    font-weight: 800;
+    
+  }
+
+  article{
+      max-width: 100%;
+  }
+
+.about-intro-box p  
+{
+  font-size: 125%;
+}
+
+.about-bio p {
+  font-size: 15px;
+}
+/*
+  Sidebar and mobile header
+*/
+nav {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+  background:url('https://4.bp.blogspot.com/-KC2Emc38jyY/UtJuKT9acjI/AAAAAAAAGd4/IWuc9LW2R2Y/s1600/dark-textured-background-pattern-picture-template-for-wordpress-blogger.jpg');
+
+  
+}
+
+nav a {
+  width: 100%;
+  vertical-align: middle;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgb(220, 189, 213); 
+}
+
+nav a span {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.sidebar-info-box {
+  margin: auto;
+  
+}
+
+.thumbnail-box {
+  padding: 0 10px;
+}
+
+.sidebar .thumbnail {
+  width: 100%;
+  max-width: 250px;
+  border: 4px solid #fff;
+}
+
+.dev-intro-box {
+  font-size: 15px;
+  height: 100%;
+}
+
+.projects-box.box.grid{
+    justify-content: center;
+}
+
+.project-info-box{
+    padding:15px;
+}
+
+.project-info-box h1{
+    font-size: 20px;
+}
+
+.project-info-box p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.projectInfo{
+  color: black;
+}
+
+.project-tech-links-box {
+    padding: px;
+}
+
+.project-tech-links-box h6{
+    font-size: 12px;
+}
+
+
+.btn-link {
+    
+    width: 100%;
+    max-width: 255px;
+    margin: auto 0 5px 0;
+    
+  }
+
+.sidebar h5 {
+  color: #fefefe;
+  margin: 0 auto 0.5rem;
+}
+
+.sidebar p {
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #999
+}
+
+.sidebar a {
+  
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.header {
+  vertical-align: middle;
+  max-width: 100%;
+  height: 40px;
+}
+
+.header span {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.skills-contact-box ul {
+  margin-bottom: 35px;
+}
+
+.flex-row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .portfolio-intro{
+      padding: 20px 40px 30px;
+  }
+  .portfolio-intro h1 {
+    font-size: 2rem;
+  }
+  
+
+  .cell {
+    margin: 0 0 15px;
+  }
+
+  .cell h5 {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
+  .inner-wrapper {
+    max-width: 760px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+
