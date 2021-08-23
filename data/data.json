@@ -3,7 +3,7 @@
         {
             "id": 1,
             "project_name": "Ruth Bader Ginsburg Quotes",
-            "description": "This project is a random quote generator dedicated to the late Ruth Bader Ginsburg. This project was my first project working with JavaScript.  I hadn't worked on images before this, and so the photos look a little pixilated. I will be making changes as soon as other projects that I am working on are complete. I hope you can still find inspiration in her words. ",
+            "description": "This project is a random quote generator dedicated to the late Ruth Bader Ginsburg. My responsibility in this project was to create an array of quotes to be displayed randomly and automatically after a few seconds.",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://jelenamf.github.io/Ruth-Bader-Ginsburg-Quotes/",
             "github_link": "https://github.com/JelenaMF/Ruth-Bader-Ginsburg-Quotes",
@@ -21,7 +21,7 @@
         {
             "id": 2,
             "project_name": "What's that Phrase?",
-            "description": "A word guessing game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed incorrectly the key with that letter changes to orange is disabled if it's guessed correctly it will change to black and display on the screen also disabling the letter. Make sure you guess the phrase before time runs out. You have sixty seconds. If you're stuck take advantage of the hint button for a clue.",
+            "description": "A Phrase Hunter game. Player will use the on-screen or physical keyboard to guess the letters in the phrase. When a letter is guessed it is disabled, and if the letter isn't in the phrase the key the guessed letter changes to orange. If it's guessed correctly it will change to black and displayed in the phrase. I added a sixty second timer to make things interesting and added a hint to be fair.",
             "technologies":["Javascript", "CSS", "HTML", "OOP"],
             "live_link": "https://jelenamf.github.io/Whats-that-Phrase-game/",
             "github_link": "https://github.com/JelenaMF/Whats-that-Phrase-game/",
@@ -40,7 +40,7 @@
         {
             "id": 3,
             "project_name": "Link Four",
-            "description": "A game similar to connect four. On the start page, players are instructed how to play the game. When the game is over, players are able to start a new game by pressing the 'start a new game' button on the page.",
+            "description": "A game similar to connect four. A list of instructions was add to the start page as well as a restart button at the end of the game. To keep players from having to refresh the page to play again.",
             "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
             "live_link": "https://jelenamf.github.io/Link-four/",
             "github_link": "https://github.com/JelenaMF/Link-four",
@@ -58,7 +58,7 @@
         {
             "id": 4,
             "project_name": "Event Registration Form",
-            "description": "This is a sign up sheet with required fields to submit the form. Users will be informed if they missed a required field before the submit button is pressed but the submit button won't submit if they're any empty required fields.",
+            "description": "This is a sign up sheet with required fields to submit the form. Users will be informed if they missed a required field before the submit button is pressed but the submit button won't submit if they're any empty required fields. I was responsible for making required fields required, manipulating the DOM to create an options field and hiding payment options until selected. I was also responsible for disabling activities that shared a day and time with another selection. Preventing users from double booking themselves.",
             "technologies": ["JavaScript", "HTML", "CSS", "Web Accessibility"],
             "live_link": "https://jelenamf.github.io/Event-Registration-form/",
             "github_link": "https://github.com/JelenaMF/Event-Registration-form",
@@ -76,7 +76,7 @@
         {
             "id": 5,
             "project_name": "Employee Directory",
-            "description": "This employee directory pulls up twelve random employees. Click on an Employee card and a module will pop-up with their information. The next and previous buttons allow you to look at the next or previous employee unless you're at the first or last employee in the directory. The search bar allows you to search for the employee on the page.",
+            "description": "This employee directory pulls up twelve random employees using randomuser.me API. I was responsible for creating the employee cards and modules. By Clicking on an Employee card a module will pop-up with their information. I was also responsible for making sure the next and previous buttons went to the next or previous employee except for the first or last employee in the directory. I then created the search bar to allow users to search for the employee on the page.",
             "technologies": ["JavaScript", "HTML", "CSS", "Fetching Public API"],
             "live_link": "https://jelenamf.github.io/Employee-Directory/",
             "github_link": "https://github.com/JelenaMF/Employee-Directory",
